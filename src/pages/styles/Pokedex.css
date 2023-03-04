@@ -1,0 +1,40 @@
+.pokedex{
+    max-width: 1400px;
+    margin: 20px;
+}
+
+.pokedex_p{
+    padding: 0 20px;
+}
+
+.pokedex_form{
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pokedex_input{
+    font-size: 20px;
+
+}
+
+.pokedex_btn{
+    font-size: 22px;
+    background-color: #D93F3F;
+    color: white;
+    border: none;
+}
+
+.pokedex_select{
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.pokedex_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    justify-content: center;
+}
+
+.home_trainer{
+    text-align: center;
+    color: #FE1936;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.home_form{
+    text-align: center;
+}
+
+.home_input{
+    font-size: 30px;
+    border: 1px solid gray;
+}
+
+.home_btn{
+    font-size: 32px;
+    border: none;
+    background-color: #D93F3F;
+    color: white;
+}

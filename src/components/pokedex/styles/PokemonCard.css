@@ -1,0 +1,149 @@
+.pokemonCard {
+  width: min(320px, 100%);
+  border: 10px solid green;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.pokemonCard_header {
+  height: 200px;
+  background-color: rgba(0, 128, 0, 0.445);
+}
+
+.pokemonCard_body {
+  padding: 20px;
+}
+
+.pokemonCard_img {
+  position: absolute;
+  top: 30px;
+}
+
+.pokemonCard_name {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+.pokemonCard_types {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 4px 0;
+}
+
+.pokemonCard_type-subtitle {
+  text-align: center;
+  color: gray;
+  font-size: 15px;
+}
+
+.pokemonCard_stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.pokemonCard-line {
+  width: 200%;
+  position: relative;
+  left: -20%;
+}
+
+.pokemonCard_stat {
+  text-align: center;
+}
+
+.pokemonCard_stat-name {
+  text-transform: uppercase;
+  color: gray;
+  font-weight: normal;
+}
+
+.pokemonCard_stat-value {
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+/* types styles */
+
+.border-normal {
+  border: 10px solid #735259;
+}
+
+.border-fighting {
+  border: 10px solid #96402a;
+}
+
+.border-flying {
+  border: 10px solid #beb14c;
+}
+
+.border-poison {
+  border: 10px solid #5b3184;
+}
+
+.border-ground {
+  border: 10px solid #654008;
+}
+
+.border-rock {
+  border: 10px solid #7e7e7e;
+}
+
+.border-bug {
+  border: 10px solid #e52d2d;
+}
+
+.border-ghost {
+  border: 10px solid #323569;
+}
+
+.border-steel {
+  border: 10px solid #5e736c;
+}
+
+.border-fire {
+  border: 10px solid #f96d6f;
+}
+
+.border-water {
+  border: 10px solid #133258;
+}
+
+.border-grass {
+  border: 10px solid #7ec6c5;
+}
+
+.border-electric {
+  border: 10px solid #0c1395;
+}
+
+.border-psychic {
+  border: 10px solid #e52d2d;
+}
+
+.border-ice {
+  border: 10px solid #6fbedf;
+}
+
+.border-dragon {
+  border: 10px solid #478a93;
+}
+
+.border-dark {
+  border: 10px solid #030706;
+}
+
+.border-fairy {
+  border: 10px solid #971b45;
+}
+
+.border-unknown {
+  border: 10px solid #696767;
+}
+
+.border-shadow {
+  border: 10px solid #6c31a3;
+}
